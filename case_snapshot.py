@@ -2,9 +2,9 @@ import streamlit as st
 import pandas as pd
 import datetime
 
-st.set_page_config(page_title="Case Snapshot Tool")
+st.set_page_config(page_title="CCF Update App")
 
-st.title("📊 Case Snapshot Generator")
+st.title("📊 CCF Update App")
 
 uploaded_file = st.file_uploader("Upload your Excel file", type=["xlsx"])
 
